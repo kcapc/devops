@@ -1,0 +1,17 @@
+name: Upload
+
+on: [push]
+
+jobs:
+  delivery:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: devops.zip
+        path: |
+          devops.py
+          templates/
+          static/
