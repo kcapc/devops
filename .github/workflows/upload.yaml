@@ -10,7 +10,7 @@ jobs:
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
-        name: devops.zip
+        name: devops
         path: |
           devops.py
           templates/
