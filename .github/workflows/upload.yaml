@@ -2,7 +2,7 @@ name: Upload
 
 on:
   branches:
-    main
+    - main
 
 jobs:
   delivery:
