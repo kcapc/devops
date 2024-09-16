@@ -16,7 +16,7 @@ h1 {
 
 .d, .e, .v, .o, .p, .s {
    
-    background-size: cover; 
+    background-size: 50% 50%; 
     background-repeat: no-repeat;
     background-position: center;
     display: none; 
