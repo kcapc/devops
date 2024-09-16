@@ -1,4 +1,4 @@
-#  DevOps.
+# Projeto pra disciplina de DevOps da PUC-PR, curso de ADS.
 
 
 

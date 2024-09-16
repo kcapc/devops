@@ -1,8 +1,9 @@
 name: Upload
 
 on:
-  branches:
-    - main
+  push:
+    branches:
+      - main
 
 jobs:
   delivery:
