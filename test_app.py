@@ -1,5 +1,6 @@
-import pytest # type: ignore 
-from app import app  # ajuste o import se o nome do seu arquivo for diferente
+# pylint: skip-file
+import pytest # type: ignore
+from devops import app  # ajuste o import se o nome do seu arquivo for diferente
 
 @pytest.fixture
 def client():
