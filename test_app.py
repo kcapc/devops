@@ -11,4 +11,4 @@ def test_index(client):
     """Teste da rota index"""
     response = client.get("/")
     assert response.status_code == 200
-    assert b'<!doctype html>' in response.data  # Verifica se o HTML padrão está na resposta
+    assert b'<!DOCTYPE html>' in response.data  # Verifica se o HTML padrão está na resposta
